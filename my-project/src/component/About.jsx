@@ -4,7 +4,7 @@ import Aboutt from "../assets/profile.png";
 
 const About = () => {
   return (
-    <section id="about"  className="lg:py-[100px]">
+    <section id="about" className="lg:py-[100px]">
       <Container>
         <div
           className="pb-[120px] w-[100%] flex justify-center"
@@ -23,14 +23,27 @@ const About = () => {
             />
           </div>
           <div className="lg:w-[50%] mt-[50px] lg:mt-0">
-            <div className="bg-gray-800 p-8 rounded-[20px] lg:mt-[120px]">
-              <h3 className="text-[#d6cece] font-caslon font-bold text-[32px]" data-aos="fade-left"> Hello</h3>
-              <p className="text-[#c9c9c9] font-play text-[14px] lg:text-[18px] font-normal lg:w-[700px] w-[320px] lg:leading-8 leading-5"data-aos="fade-left">
+            <div className="bg-gray-800 p-8 rounded-[20px] lg:mt-[120px] w-full">
+              <h3
+                className="text-[#d6cece] font-caslon font-bold text-[32px]"
+                data-aos="fade-left"
+              >
+                {" "}
+                Hello
+              </h3>
+              <p
+                className="text-[#c9c9c9] font-play text-[14px] lg:text-[18px] font-normal lg:leading-8 leading-5 w-full"
+                data-aos="fade-left"
+              >
                 I’m Forhad Hossen, a passionate front-end developer based in
                 Dhaka Bangladesh. With a love for creating intuitive and
                 engaging user experiences, I specialize in turning complex
                 problems into elegant and functional solutions. My expertise
-                lies in{" "} <span className="text-[#0afd98] font-caslon font-bold"> HTML, CSS </span>
+                lies in{" "}
+                <span className="text-[#0afd98] font-caslon font-bold">
+                  {" "}
+                  HTML, CSS{" "}
+                </span>
                 , and{" "}
                 <span className="text-[#0afd98] font-caslon font-bold">
                   {" "}
@@ -47,7 +60,7 @@ const About = () => {
                 </span>
               </p>
               <p
-                className="text-[#c9c9c9] font-play text-[14px] lg:text-[18px] font-normal lg:w-[700px] w-[320px] lg:leading-8 leading-5 pt-4"
+                className="text-[#c9c9c9] font-play text-[14px] lg:text-[18px] font-normal lg:leading-8 leading-5 pt-4 w-full"
                 data-aos="fade-left"
               >
                 {" "}
