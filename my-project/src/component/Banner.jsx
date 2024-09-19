@@ -2,6 +2,7 @@ import React from 'react'
 import Container from "./Container";
 import { MdWorkOutline } from "react-icons/md";
 import Bannerr from "../assets/banner.png";
+import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
   return (
     <div className="lg:py-[120px] py-[50px]">
@@ -9,18 +10,36 @@ const Banner = () => {
       <Container>
         <div id="banner" className="">
           <div className="lg:flex justify-between">
-            <div className="lg:w-[60%] w-full ">
+            <div className="lg:w-[60%] w-full lg:mt-[100px]">
               <div className="text-center lg:text-start">
-                <p
-                  className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold"
-                  data-aos="fade-right"
-                >
+                <p className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold">
                   {" "}
-                  <br /> Hey <br /> I'm{" "}
-                  <span className="text-[#12F7D6]">
-                    Forhad Hossen
-                  </span> <br /> Forntend{" "}
-                  <span className="text-[#12F7D6]"> Developer</span>{" "}
+                  Hey
+                </p>
+                <p className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold">
+                  I'm &nbsp;
+                  <TypeAnimation
+                    sequence={[
+                      "",
+                      1000,
+                      "Forhad Hossen",
+                      1000,
+                      "Forhad Hossen",
+                      1000,
+                    ]}
+                    speed={50}
+                    className="text-[36px] lg:text-[64px] text-[#09ffda]"
+                    repeat={Infinity}
+                  />
+                </p>
+                <p className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold">
+                  Forntend &nbsp;
+                  <TypeAnimation
+                    sequence={["", 1000, "Developer", 1000, "Developer", 1000]}
+                    speed={50}
+                    className="text-[36px] lg:text-[64px] text-[#09ffda]"
+                    repeat={Infinity}
+                  />
                 </p>
               </div>
               <div className="lg:mx-0 mx-[15px]" data-aos="fade-right">
@@ -30,11 +49,12 @@ const Banner = () => {
                   <br />{" "}
                 </p>
               </div>
-              <div className="lg:mx-0 mx-[15px]" data-aos="fade-right" >
+              <div className="lg:mx-0 mx-[15px]" data-aos="fade-right">
                 <h3 className="text-[#09ffda] text-[16px] font-caslon font-normal leading-[42px] text-center lg:text-start">
                   Let's Talk
                 </h3>
               </div>
+              
             </div>
             <div className="lg:w-[40%]" data-aos="fade-left">
               <img className="w-full h-full" src={Bannerr} alt="" />

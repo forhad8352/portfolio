@@ -20,13 +20,13 @@ const Menu = () => {
   return (
     <Container className="">
       <div className="py-[30px]">
-        <header className="flex justify-between">
+        <header className="flex justify-between items-center ">
           <div className="w-[30%] ml-2 lg:ml-0">
             <img src={Logo} alt="" className="w-[200px]" />
           </div>
           <div className="w-[40%]">
-            <div className="lg:flex justify-around hidden items-center px-2 py-1 bg-gray-800 rounded-[55px] z-10">
-              <div className="relative group hover:cursor-pointer hover:bg-slate-900 p-2 rounded-full transition-all duration-500">
+            <div className="lg:flex justify-around text-center hidden  items-center px-3 py-1 bg-gray-800  rounded-[55px]">
+              <div className="relative hover:cursor-pointer hover:bg-slate-900 p-2 rounded-full transition-all duration-500">
                 <a href="#about">
                   <GoHome className="w-[50px] h-7 text-[#d6cece]" />
                 </a>
@@ -36,7 +36,7 @@ const Menu = () => {
                   <GoProjectSymlink className="w-[50px] h-[25px] text-[#d6cece] scroll-smooth duration-500" />
                 </a>
               </div>
-            
+
               <div className="relative group hover:cursor-pointer hover:bg-slate-900 p-2 rounded-full transition-all duration-500">
                 <a href="#account">
                   <VscAccount className="w-[50px] h-[25px] text-[#d6cece]" />
