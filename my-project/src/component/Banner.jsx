@@ -33,7 +33,7 @@ const Banner = () => {
                   />
                 </p>
                 <p className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold">
-                  Forntend &nbsp;
+                  Frontend &nbsp;
                   <TypeAnimation
                     sequence={["", 1000, "Developer", 1000, "Developer", 1000]}
                     speed={50}

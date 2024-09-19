@@ -66,9 +66,11 @@ const Skills = () => {
             </div>
             <div className="lg:p-4 p-2 text-[#d6cece] font-caslon lg:text-[16px] text-[14px] font-bold transition transform">
               <img src={Java} alt="" className="lg:w-[80px] w-[60px] " />
-              <span className="font-caslon text-[#FFD600]">
-                Javascript
-              </span>
+              <span className="font-caslon text-[#FFD600]">Javascript</span>
+            </div>
+            <div className="lg:p-4 p-2 text-[#d6cece] font-caslon lg:text-[16px] text-[14px] font-bold transition transform">
+              <img src={Reactt} alt="" className="lg:w-[80px] w-[60px] " />
+              <span className="font-caslon text-[#00D8FF]">React</span>
             </div>
           </div>
         </Marquee>
