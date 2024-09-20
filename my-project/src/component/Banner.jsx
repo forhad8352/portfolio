@@ -17,20 +17,7 @@ const Banner = () => {
                   Hey
                 </p>
                 <p className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold">
-                  I'm &nbsp;
-                  <TypeAnimation
-                    sequence={[
-                      "",
-                      1000,
-                      "Forhad Hossen",
-                      1000,
-                      "Forhad Hossen",
-                      1000,
-                    ]}
-                    speed={50}
-                    className="text-[36px] lg:text-[64px] text-[#09ffda]"
-                    repeat={Infinity}
-                  />
+                  I'm <span className="text-[#09ffda]">Forhad Hossen</span>
                 </p>
                 <p className="lg:text-[64px] text-[36px] font-caslon text-[#fff] font-bold">
                   Frontend &nbsp;
@@ -54,7 +41,6 @@ const Banner = () => {
                   Let's Talk
                 </h3>
               </div>
-              
             </div>
             <div className="lg:w-[40%]" data-aos="fade-left">
               <img className="w-full h-full" src={Bannerr} alt="" />
