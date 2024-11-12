@@ -33,12 +33,18 @@ const Banner = () => {
                 <p className="text-[16px] font-caslon text-[#fff] font-normal lg:w-[700px] text-center lg:text-start">
                   I help business grow by crafting amazing web experiences. If
                   you’re looking for a developer that likes to get stuff done,
-                  <br />{" "}
+                  <br />
                 </p>
               </div>
-              <div className="lg:mx-0 mx-[15px]" data-aos="fade-right">
-                <h3 className="text-[#09ffda] text-[16px] font-caslon font-normal leading-[42px] text-center lg:text-start">
-                  Let's Talk
+              <div className="lg:mx-0 mx-[15px] pt-4" data-aos="fade-right">
+                <h3 className="text-[#000] text-[16px] font-caslon font-bold leading-[42px] text-center lg:text-start">
+                  <a
+                    target="blank"
+                    href="https://drive.google.com/file/d/1bSCEkeqWs-CcunFSWoPTAD4wOjviX1Fh/view?usp=sharing"
+                    className="px-[30px] py-3 border-[#5555] border-[1px] bg-[#09ffda] rounded-[10px] hover:bg-[#09ffdad3]"
+                  >
+                    Got Certificate
+                  </a>
                 </h3>
               </div>
             </div>

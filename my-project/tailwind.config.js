@@ -9,7 +9,8 @@ export default {
       fontFamily: {
       'caslon': ['Lato', 'sans-serif'],
       'play': ['Playfair Display', 'serif'],
-    }
+    },
+
   },
   plugins: [],
 }

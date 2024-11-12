@@ -5,13 +5,11 @@ import { VscAccount } from "react-icons/vsc";
 import { GrContact } from "react-icons/gr";
 import { GoProjectSymlink } from "react-icons/go";
 
-
 const Menu = () => {
   const handleDownload = () => {
-
     const link = document.createElement("a");
-    link.href = "/Resume_Forhad.pdf"; 
-    link.download = "Resume_Forhad.pdf"; 
+    link.href = "/Resume_Forhad.pdf";
+    link.download = "Resume_Forhad.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -24,9 +22,9 @@ const Menu = () => {
           <div className="w-[30%] ml-2 lg:ml-0">
             <img src={Logo} alt="" className="w-[200px]" />
           </div>
-          <div className="w-[40%]">
-            <div className="lg:flex justify-around text-center hidden  items-center px-3 py-1 bg-gray-800  rounded-[55px]">
-              <div className="relative hover:cursor-pointer hover:bg-slate-900 p-2 rounded-full transition-all duration-500">
+          <div className="w-[40%] fixed z-10 top-[33px] left-0 translate-x-[75%]  ">
+            <div className="lg:flex justify-around text-center hidden  items-center px-3 py-1 bg-[#3f3c3c63]  rounded-[55px]">
+              <div className="relative hover:cursor-pointer hover:bg-slate-900 p-2 rounded-full transition-all duration-500 ">
                 <a href="#about">
                   <GoHome className="w-[50px] h-7 text-[#d6cece]" />
                 </a>
